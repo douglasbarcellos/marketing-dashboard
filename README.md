@@ -1,46 +1,38 @@
-# Dashboard de Marketing
+# 📊 Dashboard de Marketing Digital
 
-Um dashboard de marketing simplificado construído com Next.js, TailwindCSS e Recharts para visualização rápida de métricas de marketing como leads, conversões e campanhas.
+Um painel de controle moderno para acompanhamento de métricas de marketing digital, como número de leads, taxa de conversão e custo por lead (CPL).
 
-![Tela](mkt-dash.png)
+## 🚀 Tecnologias utilizadas
 
-## 📊 Funcionalidades
+- [Next.js](https://nextjs.org/) - Framework React com App Router
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utilitário
+- [Recharts](https://recharts.org/) - Biblioteca de gráficos para React
+- [Lucide React](https://lucide.dev/) - Ícones modernos e consistentes
 
-- **Métricas Principais**: Visualização rápida de Total de Leads, Taxa de Conversão e CPL
-- **Gráficos de Desempenho**: 
-  - Gráfico de barras para Leads por Mês
-  - Gráfico de linha para CPL ao longo do tempo
-- **Tabela de Campanhas**: Lista de campanhas ativas com métricas relevantes
-- **Design Responsivo**: Interface adaptável para desktop e dispositivos móveis
-- **Dados Mockados**: Dados de exemplo para demonstração
+## 🎯 Funcionalidades
 
-## 🛠️ Tecnologias Utilizadas
+- Visualização de métricas principais (Total de Leads, Taxa de Conversão, CPL, ROI)
+- Gráfico de barras: Leads por Mês com comparação de metas
+- Gráfico de linhas: Evolução do CPL ao longo do tempo
+- Tabela de campanhas ativas com ordenação
+- Layout 100% responsivo
+- Menu mobile para dispositivos pequenos
 
-- **[Next.js](https://nextjs.org/)**: Framework React com App Router
-- **[TailwindCSS](https://tailwindcss.com/)**: Framework CSS para estilização
-- **[Recharts](https://recharts.org/)**: Biblioteca para criação de gráficos
-- **[Lucide React](https://lucide.dev/)**: Ícones modernos e personalizáveis
+## 📸 Demonstração
 
-## 📁 Estrutura do Projeto
+![Tela](img.png)
 
-```
-/app
-  /page.tsx         # Página principal do dashboard
-  /layout.tsx       # Layout da aplicação
-/components
-  /header.tsx       # Cabeçalho com logo e menu
-  /footer.tsx       # Rodapé da aplicação
-  /metric-card.tsx  # Componente para exibir métricas principais
-  /leads-chart.tsx  # Gráfico de barras para leads por mês
-  /cpl-chart.tsx    # Gráfico de linha para CPL ao longo do tempo
-  /campaigns-table.tsx # Tabela de campanhas ativas
-/lib
-  /mock-data.ts     # Dados mockados para o dashboard
-```
+## 🔧 Como executar o projeto
 
-## 🚀 Instalação
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/dashboard-marketing.git
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/dashboard-marketing.git
-   cd dashboard-marketing
+# Acesse a pasta
+cd dashboard-marketing
+
+# Instale as dependências
+npm install
+
+# Inicie o projeto
+npm run dev

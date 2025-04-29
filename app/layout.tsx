@@ -7,15 +7,15 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Dashboard de Marketing",
-  description: "Um dashboard simplificado para visualização de métricas de marketing",
+  description: "Painel de controle para acompanhamento de métricas de marketing digital",
     generator: 'v0.dev'
 }
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode
-}) {
+}>) {
   return (
     <html lang="pt-BR">
       <body className={inter.className}>{children}</body>
