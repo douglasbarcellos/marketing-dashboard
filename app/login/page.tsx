@@ -18,6 +18,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
+import Footer from "@/components/footer";
 
 const loginSchema = z.object({
   email: z.string().email("Email inválido"),
@@ -61,14 +62,14 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 flex flex-col">
       <div className="container mx-auto px-4 py-4">
         <Link href="/" className="inline-flex items-center text-gray-600 hover:text-gray-900">
           <ArrowLeft className="h-4 w-4 mr-2" />
           Voltar para o início
         </Link>
       </div>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center flex-grow">
         <Card className="w-[350px]">
           <CardHeader>
             <CardTitle>Login</CardTitle>
@@ -112,6 +113,7 @@ export default function LoginPage() {
           </CardContent>
         </Card>
       </div>
+      <Footer />
     </div>
   );
 } 
