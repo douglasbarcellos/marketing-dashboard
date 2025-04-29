@@ -37,10 +37,10 @@ export default function DashboardHeader() {
               <Bell className="h-5 w-5" />
             </button>
             <div className="relative">
-              <button className="flex items-center text-gray-600 hover:text-gray-900">
+              <Link href="/login" className="flex items-center text-gray-600 hover:text-gray-900">
                 <User className="h-5 w-5" />
                 <span className="ml-2 text-sm font-medium">Admin</span>
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -71,10 +71,10 @@ export default function DashboardHeader() {
               <button className="text-gray-600 hover:text-gray-900">
                 <Bell className="h-5 w-5" />
               </button>
-              <button className="flex items-center text-gray-600 hover:text-gray-900">
+              <Link href="/login" className="flex items-center text-gray-600 hover:text-gray-900">
                 <User className="h-5 w-5" />
                 <span className="ml-2 text-sm font-medium">Admin</span>
-              </button>
+              </Link>
             </div>
           </div>
         )}
