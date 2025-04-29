@@ -20,8 +20,7 @@ Um painel de controle moderno para acompanhamento de métricas de marketing digi
 
 ## 📸 Demonstração
 
-![Tela](img.png)
-[Visualize o Projeto](https://marketmetrics.netlify.app/)
+[![Tela](img.png)](https://marketmetrics.netlify.app/)
 
 ## 🔧 Como executar o projeto
 
